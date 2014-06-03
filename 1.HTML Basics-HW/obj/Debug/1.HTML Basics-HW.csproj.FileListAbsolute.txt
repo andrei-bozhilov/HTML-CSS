@@ -10,3 +10,8 @@ F:\3.HTML CSS\HTML-CSS.git\trunk\1.HTML Basics-HW\bin\1.HTML Basics-HW.pdb
 F:\3.HTML CSS\HTML-CSS.git\trunk\1.HTML Basics-HW\obj\Debug\1.HTML Basics-HW.csprojResolveAssemblyReference.cache
 F:\3.HTML CSS\HTML-CSS.git\trunk\1.HTML Basics-HW\obj\Debug\1.HTML Basics-HW.dll
 F:\3.HTML CSS\HTML-CSS.git\trunk\1.HTML Basics-HW\obj\Debug\1.HTML Basics-HW.pdb
+D:\Projects\HTML-CSS.git\trunk\1.HTML Basics-HW\bin\1.HTML Basics-HW.dll
+D:\Projects\HTML-CSS.git\trunk\1.HTML Basics-HW\bin\1.HTML Basics-HW.pdb
+D:\Projects\HTML-CSS.git\trunk\1.HTML Basics-HW\obj\Debug\1.HTML Basics-HW.csprojResolveAssemblyReference.cache
+D:\Projects\HTML-CSS.git\trunk\1.HTML Basics-HW\obj\Debug\1.HTML Basics-HW.dll
+D:\Projects\HTML-CSS.git\trunk\1.HTML Basics-HW\obj\Debug\1.HTML Basics-HW.pdb

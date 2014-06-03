@@ -1,0 +1,33 @@
+﻿body {
+    background-image: url(../Images/PowerPoint.jpg);
+    background-color:#F6E9C5;
+}
+
+:root {
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    color: #fff;    
+}
+
+
+h1, span {
+    color: #F1BC5F;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+section {
+    border:solid;
+    border-width:medium;
+    border-color:#4C4841;
+    background-color:#20201E;
+    padding:5px;
+
+}
+
+div{
+    color:#F6E9C5;
+}
