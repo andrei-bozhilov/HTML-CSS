@@ -61,6 +61,8 @@
     <Content Include="3.Runner Home page.html" />
     <Content Include="4.HTML Lists.html" />
     <Content Include="5.PowerPoint Slides.html" />
+    <Content Include="Images\Foundation.jpg" />
+    <Content Include="Images\list.gif" />
     <Content Include="Images\PowerPoint.jpg" />
     <Content Include="Style\Styles.css" />
     <Content Include="Web.config" />
