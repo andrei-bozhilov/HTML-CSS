@@ -1,6 +1,5 @@
 ﻿body {
-    background-image: url(../Images/PowerPoint.jpg);
-    background-color: #F6E9C5;
+    background-image: url(../Images/PowerPoint.jpg);    
 }
 
 :root {
@@ -25,7 +24,7 @@ section {
     border-color: #4C4841;
     background-color: #20201E;
     padding: 5px;
-    margin: 0% 10%;
+    margin: 0 100px 0 20px;
 }
 
 div {
@@ -41,5 +40,5 @@ ul {
 }
 
 #faundation-image {
-    padding: 0 0 0 80px;
+    padding: 0 0 0 70px;
 }

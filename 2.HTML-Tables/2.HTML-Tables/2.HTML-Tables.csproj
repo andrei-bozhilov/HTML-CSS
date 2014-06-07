@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E88BD6EF-9E1A-4FF9-B293-3511641A5C22}</ProjectGuid>
+    <ProjectGuid>{68EABAE9-877D-4CDF-886E-AF08F15A2B5D}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_1.HTML_Basics_HW</RootNamespace>
-    <AssemblyName>1.HTML Basics-HW</AssemblyName>
+    <RootNamespace>_2.HTML_Tables</RootNamespace>
+    <AssemblyName>2.HTML-Tables</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,23 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="1.Hello HTML.html" />
-    <Content Include="2.ParagraphAndImageOfText.html" />
-    <Content Include="3.Runner Home page.html" />
-    <Content Include="4.HTML Lists.html" />
-    <Content Include="5.PowerPoint Slides.html" />
-    <Content Include="6.Friends.html" />
-    <Content Include="6.Home.html" />
-    <Content Include="Images\Doge.png" />
-    <Content Include="Images\Foundation.jpg" />
-    <Content Include="Images\Koala.jpg" />
-    <Content Include="Images\Lighthouse.jpg" />
-    <Content Include="Images\list.gif" />
-    <Content Include="Images\Penguins.jpg" />
-    <Content Include="Images\PowerPoint.jpg" />
-    <Content Include="6.Profile.html" />
-    <Content Include="StyleDogSocial\DogSocialStyle.css" />
-    <Content Include="Style\Styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -100,9 +83,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>1778</DevelopmentServerPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:1778/</IISUrl>
+          <IISUrl>http://localhost:30709/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
