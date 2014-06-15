@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1.SimpleTable.html" />
+    <Content Include="3.NestedTables.html" />
     <Content Include="Images\SoftUniLogo.png" />
     <Content Include="Web.config" />
   </ItemGroup>
