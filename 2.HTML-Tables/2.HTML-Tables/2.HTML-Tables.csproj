@@ -59,6 +59,8 @@
   <ItemGroup>
     <Content Include="1.SimpleTable.html" />
     <Content Include="3.NestedTables.html" />
+    <Content Include="4.WebsiteHeader.html" />
+    <Content Include="5.LifeSoftUni.HTML" />
     <Content Include="Images\SoftUniLogo.png" />
     <Content Include="Web.config" />
   </ItemGroup>
