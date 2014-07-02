@@ -1,0 +1,95 @@
+﻿span {
+    text-transform: uppercase;
+}
+
+h1 {
+    text-transform: capitalize;
+    margin-left: 50px;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    border: solid red 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    #wrapper > header > nav li {
+        display: inline-block;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    #wrapper ul {
+        display: inline-block;
+    }
+
+    #wrapper > header > nav a {
+        color: rgb(128, 128, 128);
+        text-decoration: none;
+        font-size: 1.6em;
+        text-transform: uppercase;
+    }
+
+    #wrapper form, input {
+        display: inline-block;
+        margin-left: 180px;
+        font-size: 1.1em;
+    }
+
+    #wrapper header {
+        border-bottom: solid 1px rgba(128, 128, 128, 0.29);
+    }
+
+aside.left, aside.right {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    padding: 5px;
+}
+
+    aside.left li, article span, section span {
+        color: rgba(25, 101, 174, 0.76);
+        text-decoration: none;
+        list-style: none;
+    }
+
+
+main {
+    display: inline-block;
+    width: 55%;
+}
+
+#wrapper footer {
+    background-color: black;
+    color: white;
+}
+
+    #wrapper footer > div {
+        display: inline-block;
+        width: 16%;
+        vertical-align: top;
+        padding: 10px;
+    }
+
+        #wrapper footer > div div, h6 {
+            padding: 2px;
+            margin: 5px;
+        }
+
+h6 {
+    text-transform: uppercase;
+    font-size:1em;
+}
+
+#wrapper footer li, ul {
+    list-style: none;
+    margin: 0;
+    padding: 2px;
+}
+
+#wrapper footer a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}

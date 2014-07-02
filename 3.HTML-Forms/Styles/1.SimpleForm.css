@@ -1,0 +1,112 @@
+﻿body {
+    font-family: Arial;
+}
+
+div#form {
+    background-color: #EEEEEE;
+    width: 750px;
+    height: 450px;
+    padding: 0 10px 10px 10px;
+}
+
+form div {
+    display: block;
+}
+
+h, h3 {
+    padding: 0;
+    margin: 0;
+}
+
+h1, span {
+    color: #234465;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1em;
+    line-height: 1.1;
+}
+
+form {
+    display: inline-table;
+    height: 300px;
+    padding: 10px;
+    width: 350px;
+}
+
+    form#register h3, p {
+        color: #878787;
+    }
+
+    form#login {
+        background-color: #234465;
+        color: white;
+    }
+
+input {
+    display: inline-block;
+    padding: 10px;
+    margin: 8px 5px;
+    width: 320px;
+    border: 1px solid #ded2d2;
+	font-weight:500;
+}
+
+    input[type=submit] {
+        text-decoration: none;
+        background: none;
+        padding: 10px 15px;
+        width: 160px;
+        float: right;
+        cursor: pointer;
+    }
+
+    input[type=checkbox] {
+        width: 13px;
+        height: 13px;
+        border: none;
+        line-height: 200px;
+        padding: 0 5px;
+    }
+
+form#register input[type=submit] {
+    color: #234465;
+    border: solid 2px #234465;
+}
+
+form#login input[type=submit] {
+    color: white;
+    border: solid 2px #98722E;
+}
+
+form#register input[type=submit]:hover {
+    background: #234465;
+    color: white;
+    transition: all 0.3s ease;
+    border: solid 2px #234465;
+}
+
+form#login input[type=submit]:hover {
+    background: #FF9C00;
+    color: white;
+    transition: all 0.3s ease;
+    border: solid 2px #FF9C00;
+}
+
+
+
+label {
+    font-size: 0.7em;
+    padding: 5px 0;
+}
+
+
+form a {
+    font-size: 0.9em;
+    color: white;
+    float: right;
+    text-align: right;
+    width: 100%;
+    padding: 5px 25px 0 0;
+}

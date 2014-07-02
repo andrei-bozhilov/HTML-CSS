@@ -1,0 +1,23 @@
+﻿main {
+    background-color: #FFC0CB;
+    width:850px;
+}
+
+    main div {
+        display: inline-block;
+        vertical-align: top;
+        margin: 5px;
+        padding:5px;
+    }
+
+audio, video, meter {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+figure{
+    margin:0px;
+    width:150px;
+}

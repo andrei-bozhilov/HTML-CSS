@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{68EABAE9-877D-4CDF-886E-AF08F15A2B5D}</ProjectGuid>
+    <ProjectGuid>{8A37CCAE-1635-4875-9ECA-238620BD2EB8}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_2.HTML_Tables</RootNamespace>
-    <AssemblyName>2.HTML-Tables</AssemblyName>
+    <RootNamespace>_4.Semantic_HTML</RootNamespace>
+    <AssemblyName>4.Semantic-HTML</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,27 +57,32 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="1.SimpleTable.html" />
-    <Content Include="3.NestedTables.html" />
-    <Content Include="4.WebsiteHeader.html" />
-    <Content Include="5.LifeSoftUni.HTML" />
-    <Content Include="HtmlPage1.html" />
-    <Content Include="Images\SoftUniLogo.png" />
-    <Content Include="StyleSheet1.css" />
-    <Content Include="Web.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="2.ExamResults.html" />
-    <Content Include="Styles\4.Style.css" />
+    <Content Include="4.BGJugWebPage.html" />
+    <Content Include="Styles\3.StyleSheet.css" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="01.RefactorWebpage.html" />
+    <Content Include="2.Kent%27sMediaProfile.html" />
+    <Content Include="3.MagicCarGallery.html" />
+    <Content Include="Images\d.jpg" />
+    <Content Include="Images\Kent.png" />
+    <Content Include="Images\timthumb %281%29.jpg" />
+    <Content Include="Images\timthumb %282%29.jpg" />
+    <Content Include="Images\timthumb %283%29.jpg" />
+    <Content Include="Images\timthumb.jpg" />
+    <Content Include="Images\youwall-black-sport-car-wallpaper-wallpaper-wallpapers-free.jpg" />
+    <Content Include="Styles\2.StyleSheet.css" />
+    <Content Include="Styles\4.StyleSheet.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
@@ -93,9 +98,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>31321</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:30709/</IISUrl>
+          <IISUrl>http://localhost:31321/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

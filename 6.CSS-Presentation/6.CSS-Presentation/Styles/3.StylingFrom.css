@@ -1,0 +1,93 @@
+﻿body {
+    font-family: Calibri;
+}
+
+form {
+    background-image: url(../Images/formBackground.jpg);
+    width: 400px;
+    padding: 5px;
+}
+
+h1 {
+    color: white;
+    font-size: 1.2em;
+    margin: 5px;
+    padding: 5px;
+}
+
+form > div {
+    width: 0 auto;
+    padding: 0 10px;
+    margin-bottom: 0;
+}
+
+    form > div div {
+        background-color: rgba(255, 255, 255,0.4);
+        padding: 5px;
+        margin: 3px;
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255,0.4);
+    }
+
+label {
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+    padding: 5px;
+}
+
+textarea {
+    height: 80px;
+    width: 207px;
+    border-radius: 5px;
+}
+
+input {
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+form input[type="radio"] {
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+form > div:last-of-type div:first-of-type label {
+    display: inline-block;
+    width: 100px;
+    padding: 0;
+    vertical-align: middle;
+    margin: 0;
+}
+
+    form > div:last-of-type div:first-of-type label:nth-of-type(2):before {
+        content: url('../Images/logo_ccVisa.gif');
+        vertical-align: middle;
+    }
+
+    form > div:last-of-type div:first-of-type label:nth-of-type(3):before {
+        content: url('../Images/logo_ccAmex.gif');
+    }
+
+    form > div:last-of-type div:first-of-type label:nth-of-type(4):before {
+        content: url('../Images/logo_ccMC.gif');
+    }
+
+    form > div:last-of-type div:first-of-type label:first-of-type {
+        display: block;
+        padding: 5px 0 10px 5px;
+    }
+
+input[type="submit"] {
+    width: 100px;
+    text-decoration: none;
+    background: #04152F;
+    border: none;
+    color: white;
+    margin: 10px auto;
+    display: block;
+    padding:5px 10px;
+    border-radius:30px;
+}

@@ -1,0 +1,157 @@
+﻿body {
+    margin: 0;
+}
+
+#form {
+    background-color: green;
+    width: 1000px;
+    padding: 15px;
+    font-family: Calibri;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    background-color: #00923e;
+    border: 1px solid black;
+    border-radius: 18px;
+    border-spacing: 0;
+}
+
+td {
+    margin: 0;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+tbody tr:last-of-type td:first-child {
+    border-bottom-left-radius: 18px;
+}
+
+tbody tr:last-of-type td:last-child {
+    border-bottom-right-radius: 18px;
+}
+
+thead tr td:last-child {
+    border-top-right-radius: 18px;
+}
+
+thead tr td:first-child {
+    border-top-left-radius: 18px;
+}
+
+table tr td:nth-child(2n), thead td {
+    text-align: center;
+}
+
+    thead td:first-child {
+        text-align: right;
+    }
+
+    thead td:nth-child(3) {
+        text-align: left;
+    }
+
+
+table tbody tr td:nth-child(1), table tbody tr td:nth-child(5) {
+    text-align: right;
+}
+
+thead td {
+    background: #ffcd2b;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+
+tbody tr:nth-child(2n) td {
+    background: #cccbcb;
+}
+
+tbody tr td:nth-child(2n+1) {
+    width: 140px;
+}
+
+/*bet button*/
+
+table tr td input[type="button"] {
+    border: 1px solid black;
+    border-radius: 35px;
+    width: 35px;
+    height: 35px;
+    padding:2px;
+    color: white;
+    border-left-color: white;
+    border-top-color: white;
+}
+
+p {
+    margin-bottom: -9px;
+}
+
+
+
+
+table tr td input[type="button"].unactive {
+    background-color: #FF1D1D;
+}
+
+table tr td input[type="button"].active {
+    background-color: #1D9D1D;
+}
+
+/*------------------*/
+select.unactive {
+    color: red;
+    width: 40px;
+    height: 30px;
+    background-color: #E5E5E5;
+}
+
+select.active {
+    color: green;
+    width: 40px;
+    height: 30px;
+    background-color: #E5E5E5;
+}
+
+tbody tr:nth-child(1) td:nth-child(1)::after {
+    content: url('../Images/brazil.jpg');
+}
+
+tbody tr:nth-child(1) td:nth-child(3)::before {
+    content: url('../Images/Mexico.png');
+}
+
+tbody tr:nth-child(2) td:nth-child(1)::after {
+    content: url('../Images/es.png');
+}
+
+tbody tr:nth-child(2) td:nth-child(3)::before {
+    content: url('../Images/Netherlands.png');
+}
+
+tbody tr:nth-child(3) td:nth-child(1)::after {
+    content: url('../Images/it.png');
+}
+
+tbody tr:nth-child(3) td:nth-child(3)::before {
+    content: url('../Images/en.png');
+}
+
+tbody tr:nth-child(4) td:nth-child(1)::after {
+    content: url('../Images/Argentina.png');
+}
+
+tbody tr:nth-child(4) td:nth-child(3)::before {
+    content: url('../Images/Bosnia_and_Herzegovina.png');
+}
+
+tbody tr:nth-child(5) td:nth-child(1)::after {
+    content: url('../Images/de.png');
+}
+
+tbody tr:nth-child(5) td:nth-child(3)::before {
+    content: url('../Images/pt.png');
+}

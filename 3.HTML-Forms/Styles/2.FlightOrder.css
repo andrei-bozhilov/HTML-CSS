@@ -1,0 +1,70 @@
+﻿form {
+    background-color: #FFC0CB;
+    width: 400px;
+    height: 320px;
+    font-family: Arial;
+}
+
+
+div {
+    width: 47%;
+    margin: 5px 1%;
+    padding: 0px;
+}
+
+    div div {
+        width: 100%;
+        display: inline-block;
+        margin: 0px;
+    }
+
+    div.left div div {
+        width: 29%;
+        margin: 0 5px;
+        margin-left: 0;
+    }
+
+    div.right div div {
+        width: 46%;
+        margin: 0 5px;
+        margin-left: 0;
+    }
+
+    div div input[type="number"], input[type="date"], input[type="time"] {
+        width: 97.5%;
+        display: inline-block;
+    }
+
+    div select {
+        width: 100%;
+    }
+
+    div.left {
+        float: left;
+        margin-left: 1.5%;
+    }
+
+    div.right {
+        float: right;
+        margin-right: 1.5%;
+    }
+
+label, h1 {
+    margin: 10px 0;
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 0.7em;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 5px;
+    margin: 20px 0px;
+}

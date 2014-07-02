@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Flight Order</title>
+    <link href="Styles/S2.FlightOrder.css" rel="stylesheet" />
+   
+</head>
+<body>
+    <form action="" method="get">
+        <h1>flight order</h1>
+        <div class="left">
+            <label for="from">from</label>
+            <select name="from" id="from">
+                <option selected="selected" disabled="disabled">enter a city</option>
+                <option value="1">Sofia</option>
+            </select>
+            <div>
+                <input type="checkbox" hidden="hidden" />
+            </div>           
+            <label for="departure-date">departure date</label>
+            <input type="date" id="departure-date" name="departure-date" value="2014-06-09">
+            <label for="return-date">return date</label>
+            <input type="date" id="return-date" name="return-date" value="2014-06-13">
+            <div>
+                <div>
+                    <label>12+</label>
+                    <input type="number" name="12+" value="0"/>
+                </div>
+                <div>
+                    <label>2-12</label>
+                    <input type="number" name="2-12" value="0" />
+                </div>
+                <div>
+                    <label>0-2</label>
+                    <input type="number" name="0-2" value="0" />
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <label for="to">to</label>
+            <select id="to" name="to">
+                <option selected="selected" disabled="disabled">enter a city</option>
+                <option value="1">Sofia</option>
+            </select>
+            <div>
+                <input type="checkbox" id="prefer-direct" name="is-it-direct" checked="checked" />
+                <label for="prefer-direct">prefer directs</label>
+            </div>
+            <label>time interval</label>
+            <div>
+                <div>
+                    <input type="time" name="time-interval-departure-from" value="00:20" />
+                </div>
+                <div>
+                    <input type="time" name="time-interval-departure-to" value="05:00" />
+                </div>
+            </div>
+            <label>time interval</label>
+            <div>
+                <div>
+                    <input type="time" name="time-interval-return-from" value="16:00" />
+                </div>
+                <div>
+                    <input type="time" name="time-interval-return-to" value="22:00" />
+                </div>
+            </div>
+            <div>
+                <label for="class">Choose class</label>
+                <select name="class" id="class">
+                    <option value="1">Econimic</option>
+                    <option value="2">Business</option>
+                </select>
+            </div>
+            <input type="submit" value="Search" />
+        </div>
+    </form>
+</body>
+</html>

@@ -2,46 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
-    <style>
-        body, td {
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #234465;
-            width: 100%;
-            margin: 0;
-        }
-
-        table {
-            align-items: center;
-            width: 1200px;
-            margin-right: auto;
-            margin-left: auto;
-            padding-left: 15px;
-            padding-right: 15px;
-            font-weight: bold;
-        }
-
-        li {
-            padding: 2px 5px 2px 5px;
-            color: white;
-            display: inline-block;
-        }
-
-            li:hover {
-                background-color: #4CA0DB;
-            }
-
-        #search-box, ul {
-            float: right;
-            clear: both;
-        }
-        td{
-            margin:80%;
-        }
-    </style>
+    <link href="Styles/4.Style.css" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -53,16 +14,75 @@
                 </tr>
                 <tr>
                     <td>
-                        <ul>
-                            <li>NEWS</li>
-                            <li>ABOUT THE UNIVERSITY</li>
-                            <li>TRAINNING COURSES</li>
-                            <li>FOR COMPANIES</li>
-                            <li>FORUM</li>
-                            <li>CONTACTS</li>
-                        </ul>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="https://softuni.bg/news" title="news" target="_blank">NEWS</a>
+                                </li>
+                                <li>
+                                    <a href="#">ABOUT THE UNIVERSITY</a>
+                                    <ul class="sub-navigation">
+                                        <li>
+                                            <a href="https://softuni.bg/about" title="About us" target="_blank">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://softuni.bg/professions" title="Professions" target="_blank">Professions</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://softuni.bg/partner-universities" title="Partner universities" target="_blank">Partner universities</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://softuni.bg/trainers" title="Trainers" target="_blank">Trainers</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://softuni.bg/dorms" title="Dorms" target="_blank">Dorms</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://softuni.bg/apply" title="Apply" target="_blank">Apply</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">TRAINING COURSES</a>
+                                    <ul class="sub-navigation">
+                                        <li>
+                                            <a class="sub-menu" href="https://softuni.bg/trainings/courses/list" title="Courses" target="_blank">Courses</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://softuni.bg/trainings/coursesinstances/details/1" title="Java Basics May 2014" target="_blank">Java Basics May 2014</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://softuni.bg/trainings/coursesinstances/details/2" title="C# Basics march 2014" target="_blank">C# Basics march 2014</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://softuni.bg/trainings/coursesinstances/details/1036" title="C# Basics May 2014" target="_blank">C# Basics May 2014</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://softuni.bg/trainings/coursesinstances/details/3" title="Web Fundamentals (HTML + CSS) May 2014" target="_blank">Web Fundamentals (HTML + CSS) May 2014</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://softuni.bg/trainings/coursesinstances/details/6" title="Teamwork and personal skills May 2014" target="_blank">Teamwork and personal skills May 2014</a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-menu" href="https://softuni.bg/trainings/fasttracks" title="Fast Track Courses" target="_blank">Fast Track Courses</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://softuni.bg/trainings/fasttracks/details/1034" title="HTML/CSS (June 2014" target="_blank">HTML/CSS (June 2014)</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="https://softuni.bg/companies" title="news" target="_blank">FOR COMPANIES</a>
+                                </li>
+                                <li>
+                                    <a href="https://softuni.bg/forum" title="news" target="_blank">FORUM</a>
+                                </li>
+                                <li>
+                                    <a href="https://softuni.bg/contacts" title="news" target="_blank">CONTACTS</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </td>
-
                 </tr>
             </tbody>
         </table>
