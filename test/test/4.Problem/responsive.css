@@ -1,0 +1,77 @@
+/* Add here your responsive CSS */
+
+
+@media all and (max-width: 780px) {
+    * {
+    box-sizing: border-box;
+}
+    body header {
+        padding: 0;
+    }
+
+        body header nav {
+            width: 95%;
+            margin: auto;
+            box-sizing: border-box;
+            padding: 0;
+            display: flex !important;
+            -webkit-flex-flow: row wrap !important;
+            justify-content: center !important;
+            -webkit-flex-flow: column wrap;
+            flex-flow: column wrap;
+            height: auto !important;
+            padding: 0 !important;
+            line-height: normal !important;
+        }
+
+            body header nav ul {
+                display: block;
+                width: 100%;
+                padding: 0 !important;
+                margin: 0;
+            }
+
+            body header nav li a {
+                display: block;
+                width: 100%;
+                padding: 0;
+            }
+
+    .mainHeader nav ul li {
+        display: block;
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+
+    .mainHeader img {
+        width: 95%;
+        margin: 3% auto;
+        margin-left: 2.5%;
+        max-height: 200px;
+    }
+
+    .body {
+        width: 95%;
+        margin: 3% auto;
+    }
+
+    aside {
+        margin: 0 auto;
+        width: 95% !important;
+        box-sizing: border-box;
+        margin-left: 3% !important;
+    }
+
+    .content {
+        width: 95%;
+        float: none;
+        margin: 3% auto;
+    }
+
+    .mainFooter {
+        width: 95%;
+        margin: 3% auto;
+        margin-left: 3%;
+    }
+}

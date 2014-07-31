@@ -1,0 +1,66 @@
+﻿body {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+    body #wrapper {
+        margin: 0 auto;
+        width: 500px;
+    }
+
+        body #wrapper section {
+            display: inline-block;
+            width: 145px;
+            margin: 5px;
+            vertical-align: top;
+        }
+
+            body #wrapper section img {
+                border: 1px solid #DADEE4;
+            }
+
+            body #wrapper section div h3 {
+                text-transform: uppercase;
+                font-weight: normal;
+            }
+
+                body #wrapper section div h3:hover {
+                    color: #808080;
+                }
+
+            body #wrapper section a {
+                text-decoration: none;
+                color: black;
+            }
+
+            body #wrapper section div span {
+                color: #808080;
+            }
+
+            body #wrapper section div p {
+                color: #8F0509;
+                font-weight: bold;
+            }
+
+            body #wrapper section div input[type=submit] {
+                border: none;
+                padding: 3px 15px;
+                font-size: 10px;
+                background: url(../1.Problem/shopping-cart-inactive.png) no-repeat;
+                background-size: 281px;
+                padding-left: 30px;
+                background-position: 0 0;
+                color: #808080;
+                cursor: pointer;
+            }
+
+                body #wrapper section div input[type=submit]:hover {
+                    border: none;
+                    padding: 3px 15px;
+                    font-size: 10px;
+                    background: url(../1.Problem/shopping-cart-active.png) no-repeat;
+                    background-size: 281px;
+                    padding-left: 30px;
+                    background-position: 0 0;
+                    color: black;
+                }

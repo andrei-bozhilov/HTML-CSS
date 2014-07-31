@@ -1,0 +1,51 @@
+﻿
+
+div#wrapper {
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    width: 960px;
+    margin: 0 auto;
+
+    div {
+        padding: 10px;
+        background-image: url(../Images/Untitled.png);
+        background-repeat: repeat;
+    }
+
+    div:first-of-type {
+    }
+
+    div:last-of-type {
+        background: black;
+        color: white;
+
+        a {
+            color: white;
+
+            &:after {
+                content: " /";
+            }
+        }
+
+        li:last-of-type a:after {
+            content: none;
+        }
+
+        input[type="search"] {
+            margin-left: 560px;
+            color: white;
+            border-radius: 10px;
+            background-color: transparent;
+        }
+    }
+}
+
+ul, li, input[type="search"], h2, a, form {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}

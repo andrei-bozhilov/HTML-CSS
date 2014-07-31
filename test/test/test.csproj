@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A4581508-3699-412F-9B09-DD99D2558ED5}</ProjectGuid>
+    <ProjectGuid>{F4FFBF77-43EB-4FA0-AD79-6963238E0256}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_6.CSS_Presentation</RootNamespace>
-    <AssemblyName>6.CSS-Presentation</AssemblyName>
+    <RootNamespace>test</RootNamespace>
+    <AssemblyName>test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,11 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="JavaScript1.js" />
-    <Content Include="Styles\2.SoftUniVacation.css" />
-    <Content Include="Styles\Animated.ttf" />
-    <Content Include="4.NestedDivs.html" />
-    <Content Include="Styles\4.NestedDivs.css" />
+    <Content Include="3.Problem\glyphicons-halflings-regular.ttf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -70,22 +66,27 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="1.TheJauntyTextField.html" />
-    <Content Include="2.SoftUniVacation.html" />
-    <Content Include="3.StylingFrom.html" />
-    <Content Include="Images\AlexHula.png" />
-    <Content Include="Images\formBackground.jpg" />
-    <Content Include="Images\HawaiiBackground.png" />
-    <Content Include="Images\logo_ccAmex.gif" />
-    <Content Include="Images\logo_ccMC.gif" />
-    <Content Include="Images\logo_ccVisa.gif" />
-    <Content Include="Images\NakovHula.png" />
-    <Content Include="Images\PetiaHula.png" />
-    <Content Include="Images\TediHula.png" />
-    <Content Include="Images\VladoGHula.png" />
-    <Content Include="Images\VladoKHula.png" />
-    <Content Include="Styles\1.TheJauntyTextField.css" />
-    <Content Include="Styles\3.StylingFrom.css" />
+    <Content Include="1.Problem\book1.jpg" />
+    <Content Include="1.Problem\book2.jpg" />
+    <Content Include="1.Problem\book3.jpg" />
+    <Content Include="1.Problem\shopping-cart-active.png" />
+    <Content Include="1.Problem\shopping-cart-inactive.png" />
+    <Content Include="1.Problem\1.Style.css" />
+    <Content Include="2.Problem\2.HtmlPage.html" />
+    <Content Include="2.Problem\icons.png" />
+    <Content Include="2.Problem\logo.png" />
+    <Content Include="2.Problem\2.Style.css" />
+    <Content Include="3.Problem\3.HtmlPage .html" />
+    <Content Include="3.Problem\blurred-green-background.jpg" />
+    <Content Include="3.Problem\3.Style.css" />
+    <Content Include="1.Problem\1.HtmlPage.html" />
+    <Content Include="4.Problem\1. Site-Wide-Screen.png" />
+    <Content Include="4.Problem\2. Site-Small-Screen.png" />
+    <Content Include="4.Problem\bg.png" />
+    <Content Include="4.Problem\index.html" />
+    <Content Include="4.Problem\logo.gif" />
+    <Content Include="4.Problem\responsive.css" />
+    <Content Include="4.Problem\styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -105,9 +106,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>8468</DevelopmentServerPort>
+          <DevelopmentServerPort>47260</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:8468/</IISUrl>
+          <IISUrl>http://localhost:47260/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

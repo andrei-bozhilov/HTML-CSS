@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A4581508-3699-412F-9B09-DD99D2558ED5}</ProjectGuid>
+    <ProjectGuid>{8CDA5AFA-2E50-4B2A-BE92-CF8F5812A2A8}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_6.CSS_Presentation</RootNamespace>
-    <AssemblyName>6.CSS-Presentation</AssemblyName>
+    <RootNamespace>Test_Preparation</RootNamespace>
+    <AssemblyName>Test-Preparation</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,11 +57,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="JavaScript1.js" />
-    <Content Include="Styles\2.SoftUniVacation.css" />
-    <Content Include="Styles\Animated.ttf" />
-    <Content Include="4.NestedDivs.html" />
-    <Content Include="Styles\4.NestedDivs.css" />
+    <Content Include="Images\header-bg.png" />
+    <Content Include="Styles\1.StyleSheet.css.map">
+      <DependentUpon>1.StyleSheet.css</DependentUpon>
+    </Content>
+    <None Include="Styles\1.StyleSheet.less" />
+    <Content Include="Styles\2.StyleSheet.less" />
+    <Content Include="Styles\2.StyleSheet.css.map">
+      <DependentUpon>2.StyleSheet.css</DependentUpon>
+    </Content>
+    <Content Include="Styles\3.StyleSheet1.less" />
+    <Content Include="Styles\3.StyleSheet1.css.map">
+      <DependentUpon>3.StyleSheet1.css</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -70,22 +78,37 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="1.TheJauntyTextField.html" />
-    <Content Include="2.SoftUniVacation.html" />
-    <Content Include="3.StylingFrom.html" />
-    <Content Include="Images\AlexHula.png" />
-    <Content Include="Images\formBackground.jpg" />
-    <Content Include="Images\HawaiiBackground.png" />
-    <Content Include="Images\logo_ccAmex.gif" />
-    <Content Include="Images\logo_ccMC.gif" />
-    <Content Include="Images\logo_ccVisa.gif" />
-    <Content Include="Images\NakovHula.png" />
-    <Content Include="Images\PetiaHula.png" />
-    <Content Include="Images\TediHula.png" />
-    <Content Include="Images\VladoGHula.png" />
-    <Content Include="Images\VladoKHula.png" />
-    <Content Include="Styles\1.TheJauntyTextField.css" />
-    <Content Include="Styles\3.StylingFrom.css" />
+    <Content Include="2.Task.html" />
+    <Content Include="3.Task.html" />
+    <Content Include="4.Task.html" />
+    <Content Include="1.Task.html" />
+    <Content Include="Images\3. school.jpg" />
+    <Content Include="Images\4. vegetables.jpg" />
+    <Content Include="Images\5. cars.jpg" />
+    <Content Include="Images\comment.svg" />
+    <Content Include="Images\email.svg" />
+    <Content Include="Images\feedback-img.jpg" />
+    <Content Include="Images\name.svg" />
+    <Content Include="Images\Untitled.png" />
+    <Content Include="Styles\1.StyleSheet.css">
+      <DependentUpon>1.StyleSheet.less</DependentUpon>
+    </Content>
+    <Content Include="Styles\1.StyleSheet.min.css">
+      <DependentUpon>1.StyleSheet.css</DependentUpon>
+    </Content>
+    <Content Include="Styles\2.StyleSheet.css">
+      <DependentUpon>2.StyleSheet.less</DependentUpon>
+    </Content>
+    <Content Include="Styles\2.StyleSheet.min.css">
+      <DependentUpon>2.StyleSheet.css</DependentUpon>
+    </Content>
+    <Content Include="Styles\3.StyleSheet1.css">
+      <DependentUpon>3.StyleSheet1.less</DependentUpon>
+    </Content>
+    <Content Include="Styles\3.StyleSheet1.min.css">
+      <DependentUpon>3.StyleSheet1.css</DependentUpon>
+    </Content>
+    <Content Include="Styles\4.StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -105,9 +128,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>8468</DevelopmentServerPort>
+          <DevelopmentServerPort>34618</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:8468/</IISUrl>
+          <IISUrl>http://localhost:34618/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

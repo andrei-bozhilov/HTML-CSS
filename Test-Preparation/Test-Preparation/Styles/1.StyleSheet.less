@@ -1,0 +1,52 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Tahoma / Geneva / sans-serif;
+
+    div#wrapper {
+        width: 330px;
+        font-size: 12px;
+
+        div {
+            border-bottom: 1px dashed #808080;
+            padding-top: 5px;
+        }
+        div:last-child{
+             border:none;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+
+            &:hover {
+                text-decoration: underline;
+                color: #808080;
+            }
+        }
+    }
+}
+
+article, image {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+h1 {
+    font-size: 1.1em;
+}
+
+span {
+    color: #808080;
+    font-weight: bold;
+}
+
+img {
+    border: 1px solid black;
+    padding: 1px;
+}

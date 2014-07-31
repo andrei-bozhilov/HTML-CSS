@@ -1,0 +1,155 @@
+﻿body, ul, li, nav {
+    font-family: Tahoma,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+    body header, footer {
+        width: 100%;
+        border: 1px solid #E6E6E6;
+    }
+
+    body header {
+        background-color: #EEEEEE;
+        margin: 0;
+    }
+
+        body header nav, footer > div {
+            width: 920px;
+            margin: 0 auto;
+        }
+
+    body #main {
+        width: 840px;
+        margin: 0 auto;
+    }
+
+    body header nav ul {
+        padding: 20px;
+        display: flexbox;
+        display: flex;
+        align-items: center;
+    }
+
+        body header nav ul li:first-of-type {
+            padding-left: 0;
+            margin-left: -10px;
+        }
+
+            body header nav ul li:first-of-type:hover {
+                background-color: #EEEEEE;
+            }
+
+        body header nav ul li {
+            list-style: none;
+            padding: 20px;
+            margin-right: 50px;
+            border-radius: 10px;
+        }
+
+            body header nav ul li a {
+                text-align: center;
+                text-decoration: none;
+                color: #81819C;
+            }
+
+            body header nav ul li:hover {
+                background-color: #CAD1D1;
+                cursor: pointer;
+            }
+
+            body header nav ul li a:hover {
+                color: #F19600;
+                background-color: #CAD1D1;
+            }
+
+    body #main h1 {
+        font-weight: normal;
+    }
+
+    body #main div {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+        padding-left: 10px;
+    }
+
+        body #main div p {
+            margin-bottom: 30px;
+        }
+
+    body footer {
+        background-color: #eeeeee;
+        padding: 30px 0;
+    }
+
+        body footer div {
+            display: flex;
+            justify-content: space-between;
+        }
+
+            body footer div div {
+                display: inline-block;
+            }
+
+                body footer div div a {
+                    width: 0;
+                    height: 21px;
+                    margin: 5px;
+                    display: inline-block;
+                }
+
+        body footer a:nth-of-type(1) {
+            background: url(../2.Problem/icons.png);
+            background-size: 49px;
+            padding-left: 28px;
+            background-position: 0 0;
+        }
+
+            body footer a:nth-of-type(1):hover {
+                background: url(../2.Problem/icons.png);
+                background-size: 49px;
+                background-position: 27px 0;
+            }
+
+        body footer a:nth-of-type(2) {
+            background: url(../2.Problem/icons.png);
+            background-size: 49px;
+            background-position: 0 78px;
+            padding-left: 28px;
+        }
+
+            body footer a:nth-of-type(2):hover {
+                background: url(../2.Problem/icons.png);
+                background-size: 49px;
+                background-position: 27px 78px;
+            }
+
+        body footer a:nth-of-type(3) {
+            background: url(../2.Problem/icons.png);
+            background-size: 49px;
+            padding-left: 28px;
+            background-position: 0 49px;
+        }
+
+            body footer a:nth-of-type(3):hover {
+                background: url(../2.Problem/icons.png);
+                background-size: 49px;
+                background-position: 27px 49px;
+            }
+
+
+
+        body footer a:nth-of-type(4) {
+            background: url(../2.Problem/icons.png);
+            background-size: 49px;
+            padding-left: 28px;
+            background-position: 0 127px;
+        }
+
+            body footer a:nth-of-type(4):hover {
+                background: url(../2.Problem/icons.png);
+                background-size: 49px;
+                background-position: 27px 127px;
+            }

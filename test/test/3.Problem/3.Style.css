@@ -1,0 +1,120 @@
+﻿@font-face {
+    font-family: 'glyphicons';
+    src: url(../3.Problem/glyphicons-halflings-regular.ttf);
+}
+
+body {
+    background: url(../3.Problem/blurred-green-background.jpg) no-repeat center center fixed;
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 300px;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+body div {
+    margin: 40px auto;
+    width: 350px;
+}
+
+body #form > form {
+    width: 350px;
+    height: 265px;
+    background-color: rgba(235, 245, 234, 0.85);
+    box-shadow: rgba(0,0,0,0.4) 0 0 10px;
+}
+
+    body #form > form h1 {
+        text-align: center;
+        background-color: #93D55C;
+        margin: 0;
+        margin-bottom: 40px;
+        font-size: 1.2em;
+        padding: 10px;
+        color: white;
+        text-shadow: rgba(0,0,0,0.4) 1px 1px;
+    }
+
+input[type="email"] {
+    position: relative;
+}
+
+
+    input[type="email"]:before {
+        position: absolute;
+        font-family: 'Arabic Typesetting';
+        top: 0;
+        left: -5px;
+        content: "\e008";
+    }
+
+
+input[type="search"] {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    float: left;
+    width: 250px;
+    border-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-left: 10px;
+}
+
+input[type="button"] {
+    float: right;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    border-radius: 0;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-collapse: collapse;
+    margin: 0;
+    position: relative;
+    border: 1px solid green;
+    background-color: #5CB85C;
+    padding-top: 7px;
+    cursor: pointer;
+    color: white;
+}
+
+    input[type="button"]:hover {
+        background-color: #449D44;
+    }
+
+input[type="submit"] {
+    background-color: #5CB85C;
+    cursor: pointer;
+    border-bottom: 5px solid #229E22;
+    color: white;
+}
+
+    input[type="submit"]:hover {
+        background-color: #449D44;
+    }
+
+
+
+input[type="button"]:after {
+    font-family: Arial;
+    color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    content: "asdsadasd";
+    width:100px;
+    z-index:100;
+    zoom:3;
+}
